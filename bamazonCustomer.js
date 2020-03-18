@@ -82,7 +82,7 @@ function purchaseItems(ID, quantity)
         else
         {
             console.log("We do not have that many units of this item to sell you. We only have " + res[0].stock_quantity + " units available at this time.");
-            readProducts();
         };
+        readProducts();
     })
 }
